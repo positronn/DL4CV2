@@ -1,0 +1,27 @@
+# .gitignore
+
+# ignore sublime related files
+*.sublime-*
+
+# ignore pycache directories and files
+__pycache__/
+
+# ignore Mac DS_Store files
+.DS_Store
+
+
+#ignore datasets
+pyimagesearch/datasets/animals/*
+pyimagesearch/datasets/SMILEsmileD/*
+pyimagesearch/datasets/images/*
+pyimagesearch/datasets/flowers17/*
+
+# ignore weight and model files
+model/*
+weights/*
+test_best/*
+
+# other files
+.root
+dl4cv1.sublime-project
+envs.sh
