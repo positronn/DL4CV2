@@ -15,9 +15,11 @@ pyimagesearch/datasets/animals/*
 pyimagesearch/datasets/SMILEsmileD/*
 pyimagesearch/datasets/images/*
 pyimagesearch/datasets/flowers17/*
+pyimagesearch/datasets/caltech-101/*
+output/*
 
 # ignore weight and model files
-model/*
+model/
 weights/*
 test_best/*
 
