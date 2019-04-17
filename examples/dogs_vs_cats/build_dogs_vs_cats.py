@@ -41,7 +41,7 @@ split = train_test_split(trainPaths,
                 stratify = trainLabels,
                 random_state = 42
     )
-(trainPaths, testPaths, trainLabels, testLabels) = split
+(trainPaths, valPaths, trainLabels, valLabels) = split
 
 
 # construct a list pairing the training, validation and testing

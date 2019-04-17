@@ -16,6 +16,8 @@ pyimagesearch/datasets/SMILEsmileD/*
 pyimagesearch/datasets/images/*
 pyimagesearch/datasets/flowers17/*
 pyimagesearch/datasets/caltech-101/*
+examples/dogs_vs_cats/datasets/kaggle_dogs_vs_cats/train/*
+examples/dogs_vs_cats/datasets/kaggle_dogs_vs_cats/hdf5/*
 output/*
 
 # ignore weight and model files
