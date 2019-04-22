@@ -3,3 +3,4 @@ from .SimplePreprocessor import SimplePreprocessor
 from .ImageToArrayPreprocessor import ImageToArrayPreprocessor
 from .AspectAwarePreprocessor import AspectAwarePreprocessor
 from .MeanPreprocessor import MeanPreprocessor
+from .PatchPreprocessor import PatchPreprocessor
