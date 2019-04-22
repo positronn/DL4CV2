@@ -36,11 +36,8 @@ class LeNet:
         parameters
         ----------
             width:  width of input images.
-
             height: height of input images.
-
             depth:  depth if input images.
-
             classes: number of classes of the corresponding data.
 
         returns

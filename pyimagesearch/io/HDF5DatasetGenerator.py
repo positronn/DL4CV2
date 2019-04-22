@@ -7,6 +7,8 @@ from keras.utils import np_utils
 
 class HDF5DatasetGenerator:
     '''
+    Use to generate a dataset for use withing keras framework
+    form a HDF5 file.
     '''
     def __init__(self, dbPath, batchSize, preprocessors = None,
         aug = None, binarize = True, classes = 2):

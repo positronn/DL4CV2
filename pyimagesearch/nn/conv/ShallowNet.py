@@ -48,7 +48,7 @@ class ShallowNet:
         model = Sequential()
         inputShape = (height, width, depth)
 
-        # if we ware using "channels firt", update the input shape
+        # if we ware using "channels first", update the input shape
         if K.image_data_format() == "channels_first":
             inputShape = (depth, height, width)
 

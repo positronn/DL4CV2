@@ -40,7 +40,7 @@ class MiniVGGNet:
 
             height: height of input images.
 
-            depth:  depth if input images.
+            depth:  depth of input images.
 
             classes: number of classes of the corresponding data.
 
