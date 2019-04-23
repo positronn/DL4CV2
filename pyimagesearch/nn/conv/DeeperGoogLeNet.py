@@ -122,7 +122,7 @@ class DeeperGoogLeNet:
         # define the third branch of the Inception module which
         # are our 1x1 and 5x5 convolutions
         third = DeeperGoogleNet._conv_module(x, num5x5Reduce, (1, 1), (1, 1), chanDim, reg = reg,
-            name = stage = "_third1")
+            name = stage + "_third1")
         third = DeeperGoogLeNet._conv_module(third, num5x5, (5, 5), (1, 1), chanDim, reg = reg,
             name = stage + "_third2")
 
@@ -205,7 +205,7 @@ class DeeperGoogLeNet:
             24, 64, 64, chanDim, "4c",reg = reg)
         x = DeeperGoogLeNet._inception_module(x, 128, 128, 256, 24,
             64, 64, chanDim, "4d", reg = reg)
-        x = DeeperGoogLeNet._inception_module(x, 112, 144, 288, ,32,
+        x = DeeperGoogLeNet._inception_module(x, 112, 144, 288, 32,
             64, 64, chanDim, "4d", reg = teg)
         x = DeeperGoogLeNet._inception_module(x, 256, 160, 320, 32,
             128, 128, chanDim, "4e", reg = reg)

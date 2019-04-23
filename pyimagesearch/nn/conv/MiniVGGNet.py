@@ -37,16 +37,11 @@ class MiniVGGNet:
         parameters
         ----------
             width:  width of input images.
-
             height: height of input images.
-
             depth:  depth of input images.
-
             classes: number of classes of the corresponding data.
-
             batchNorm: indicates whether the Batch Normalization
                 is going to be applied to the model or not. 
-
 
         returns
         -------

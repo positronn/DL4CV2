@@ -1,7 +1,8 @@
 # .gitignore
 
-# ignore sublime related files
+# ignore sublime and vscode related files
 *.sublime-*
+.vscode/*
 
 # ignore pycache directories and files
 __pycache__/

@@ -1,3 +1,3 @@
 # __init__.py
 from .TrainingMonitor import TrainingMonitor
-from .EpochCheckPoint import EpochCheckpoint
+from .EpochCheckpoint import EpochCheckpoint

@@ -6,3 +6,4 @@ from .FCHeadNet import FCHeadNet
 from .AlexNet import AlexNet
 from .MiniGoogLeNet import MiniGoogLeNet
 from .DeeperGoogLeNet import DeeperGoogLeNet
+from .ResNet import ResNet
